@@ -1,0 +1,52 @@
+{
+  "name": "前端应用",
+  "children": [
+    {
+      "name": "服务1",
+      "children": [
+        {
+          "name": "cluster",
+          "children": [
+            {"name": "AgglomerativeCluster", "size": 3938}
+          ]
+        },
+        {
+          "name": "graph",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731}
+          ]
+        },
+        {
+          "name": "optimization",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 7074}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "服务2",
+      "children": [
+        {"name": "Easing", "size": 17010},
+        {"name": "FunctionSequence", "size": 5842}
+      ]
+    },
+    {
+      "name": "数据库",
+      "children": [
+        {
+          "name": "converters",
+          "children": [
+            {"name": "Converters", "size": 721},
+            {"name": "DelimitedTextConverter", "size": 4294}
+          ]
+        },
+        {"name": "DataField", "size": 1759},
+        {"name": "DataSchema", "size": 2165},
+        {"name": "DataSet", "size": 586}
+
+      ]
+    }
+  ]
+}
